@@ -14,8 +14,8 @@
   <mp:PhoneIdentity PhoneProductId="7aa048e4-da7b-4e93-9e0a-812c95f9200e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>TPCWare.UsbSniffer.UWA</DisplayName>
-    <PublisherDisplayName>nick</PublisherDisplayName>
+    <DisplayName>USB Sniffer</DisplayName>
+    <PublisherDisplayName>Nicolò Carandini</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -44,5 +44,11 @@
 
   <Capabilities>
     <Capability Name="internetClient" />
+    <DeviceCapability Name="usb" >
+      <Device Id="any">
+        <!--<Function Type="name:vendorSpecific"/>-->
+        <Function Type="classId:ff * *"/>
+      </Device>
+    </DeviceCapability>
   </Capabilities>
 </Package>

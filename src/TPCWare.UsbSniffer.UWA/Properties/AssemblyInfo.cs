@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TPCWare.UsbSniffer.UWA")]
+[assembly: AssemblyTitle("USB Sniffer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("TPCWare")]
 [assembly: AssemblyProduct("TPCWare.UsbSniffer.UWA")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
+[assembly: AssemblyCopyright("Copyright ©  2015 Nicolòà Carandini")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
